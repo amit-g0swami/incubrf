@@ -1,7 +1,7 @@
 .quoteh4{
-    width: 1142px;
-    height: 622px;
-    margin-left: 224px;
+    max-width: 900px;
+    max-height: 622px;
+    margin-left: 160px;
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 400;
@@ -20,7 +20,7 @@
     margin-bottom: 200px;
 }
 .first > h4{
-width: 338px;
+width: auto;
 height: 78px;
 font-family: 'Helvetica';
 font-style: normal;
@@ -32,7 +32,7 @@ text-transform: uppercase;
 color: black;
 }
 .middle{
-width: 293px;
+width: auto;
 height: 87px;
 border: 1px solid black;
 border-radius: 90px;
@@ -112,3 +112,18 @@ width: 100%;
     margin-top: 400px;
     margin-bottom: 400px;
 }
+.heading{
+    width: auto;
+                height: 386px;
+                margin-left: 100px;
+                margin-top: 60px;
+                font-family: Helvetica;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 175px;
+                line-height: 103.9%;
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
+                color:  #1F1D1D;
+}
+

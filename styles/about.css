@@ -105,7 +105,7 @@ color: black;
     margin-bottom: 200px;
 }
 .first > h4{
-width: 338px;
+width: auto;
 height: 78px;
 font-family: 'Helvetica';
 font-style: normal;
@@ -117,14 +117,14 @@ text-transform: uppercase;
 color: black;
 }
 .middle{
-width: 293px;
+width: auto;
 height: 87px;
 border: 1px solid black;
 border-radius: 90px;
 display: flex;
 align-items: center;
 justify-content: center;
-}
+} 
 .middle > h4{
     width: auto;
 height: 57px;
@@ -142,7 +142,7 @@ border: none;
 font-family: 'Helvetica Light';
 font-style: normal;
 font-weight: 400;
-font-size: 200px;
+font-size: 160px;
 line-height: 103.9%;
 letter-spacing: 0.03em;
 text-transform: uppercase;

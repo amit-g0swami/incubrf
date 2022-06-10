@@ -46,9 +46,9 @@ function About() {
                 }}>JOURNALS</h1>
             </div>
             <div className="heading" style={{
-                width: "1307px",
+                width: "auto",
                 height: "386px",
-                marginLeft: "203px",
+                marginLeft: "100px",
                 marginTop: "60px",
                 fontFamily: 'Helvetica',
                 fontStyle: "normal",

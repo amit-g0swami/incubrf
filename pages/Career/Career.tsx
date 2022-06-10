@@ -29,7 +29,7 @@ function Career() {
     }, []);
     return (
         <div> <Header />
-            <div style={{ display: 'flex', alignItems: 'flex-end', marginLeft: "203px" }}>
+            <div className='topher' style={{ display: 'flex', alignItems: 'flex-end', marginLeft: "203px" }}>
                 <div className="top" style={{ boxSizing: 'border-box', width: '293px', height: "87px", marginLeft: '0px', marginTop: '200px', border: '1px solid #444343', borderRadius: '90px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <h1 style={{
                         position: "absolute",
@@ -45,20 +45,7 @@ function Career() {
                     }}>ABOUT US</h1>
                 </div>
             </div>
-            <div className="heading" style={{
-                width: "1307px",
-                height: "386px",
-                marginLeft: "203px",
-                marginTop: "60px",
-                fontFamily: 'Helvetica',
-                fontStyle: "normal",
-                fontWeight: "400",
-                fontSize: "175px",
-                lineHeight: '103.9%',
-                letterSpacing: "0.03em",
-                textTransform: "uppercase",
-                color: " #1F1D1D",
-            }}>
+            <div className="heading" style={{}}>
                 <h1>WORK | LIFE</h1>
             </div>
             <div className='quote1ee'>

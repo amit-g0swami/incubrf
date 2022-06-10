@@ -47,14 +47,14 @@ function Journel() {
                 </div>
             </div>
             <div className="heading" style={{
-                width: "1307px",
+                width: "auto",
                 height: "386px",
-                marginLeft: "203px",
+                marginLeft: "100px",
                 marginTop: "60px",
                 fontFamily: 'Helvetica',
                 fontStyle: "normal",
                 fontWeight: "400",
-                fontSize: "175px",
+                fontSize: "160px",
                 lineHeight: '103.9%',
                 letterSpacing: "0.03em",
                 textTransform: "uppercase",
@@ -117,8 +117,8 @@ function Journel() {
 
             <div className="last">
                 <div className="first">UP NEXT</div>
-                <div className="middle"><h4>DISCOVER</h4></div>
-                <div className="end"><h6 className=''>| JOURNALS</h6></div>
+                <div className="middle">DISCOVER</div>
+                <div className="end">| JOURNALS</div>
             </div>
 
             <div className="h-full flex justify-center items-center">
