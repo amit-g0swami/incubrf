@@ -1,0 +1,150 @@
+.sidecard{
+width: 153px;
+height: 45px;
+background: #1F1D1D;
+border-radius: 90px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.sidecardh4{
+    width: 91px;
+height: 22px;
+font-family: 'Steiner';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 143.4%;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+border: 0.2px solid #FFFFFF;
+border: none;
+}
+.sidecard2{
+width: 152px;
+height: 45px;
+border: 1px solid #444343;
+border-radius: 90px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.sidecardh3{
+width: 113px;
+height: 22px;
+font-family: 'Steiner';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 143.4%;
+letter-spacing: 0.1em;
+color: #2A2929;
+border: 0.2px solid #000000;
+border: none;
+}
+.box1{
+    width: 1242px;
+}
+.bordertop{
+    width: 1242px;
+height: 0px;
+border: 0.7px solid #000000;
+}
+.cat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cat1{
+width: 132px;
+height: 29px;
+font-family: 'Steiner';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 147.4%;
+letter-spacing: 0.115em;
+color: #000000;
+}
+.cat2{
+width: 227px;
+height: 37px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 103.9%;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #000000;
+}
+.quote{
+    margin-top: 30px;
+}
+.quote > h4 {
+width: 495px;
+height: 300px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 103.9%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: black;
+}
+.last{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    gap: 8px;
+    margin-bottom: 200px;
+}
+.first > h4{
+width: 338px;
+height: 78px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 75px;
+line-height: 103.9%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: black;
+}
+.middle{
+width: 293px;
+height: 87px;
+border: 1px solid black;
+border-radius: 90px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.middle > h4{
+    width: auto;
+height: 57px;
+font-family: 'Steiner';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 143.4%;
+letter-spacing: 0.1em;
+color: black;
+border: none;
+}
+.end > h6{
+    width: auto;
+font-family: 'Helvetica Light';
+font-style: normal;
+font-weight: 400;
+font-size: 200px;
+line-height: 103.9%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: black;
+}

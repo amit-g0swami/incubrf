@@ -1,0 +1,114 @@
+.quoteh4{
+    width: 1142px;
+    height: 622px;
+    margin-left: 224px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 125.4%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.last{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    gap: 8px;
+    margin-bottom: 200px;
+}
+.first > h4{
+width: 338px;
+height: 78px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 75px;
+line-height: 103.9%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: black;
+}
+.middle{
+width: 293px;
+height: 87px;
+border: 1px solid black;
+border-radius: 90px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.middle > h4{
+    width: auto;
+height: 57px;
+font-family: 'Steiner';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 143.4%;
+letter-spacing: 0.1em;
+color: black;
+border: none;
+}
+.end > h6{
+    width: auto;
+font-family: 'Helvetica Light';
+font-style: normal;
+font-weight: 380;
+font-size: 180px;
+line-height: 103.9%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: black;
+}
+.boxe{
+ position: relative;
+    width: 415px;
+height: 595px;
+/* margin-left: 323px; */
+background: #2C5F70;
+border-radius: 18px;
+}
+.boxee > h4{
+    /* width: 162px; */
+height: 34px;
+margin-top: auto;
+margin-bottom: 0px;
+font-family: 'Helvetica';
+font-style: normal;
+position: relative;
+font-weight: 400;
+font-size: 24px;
+line-height: 143.4%;
+letter-spacing: 0.1em;
+}
+.boxee > h6 {
+    width: 127px;
+height: 23px;
+font-family: 'Steiner';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 143.4%;
+letter-spacing: 0.135em;
+}
+.boxee{
+    position: absolute;
+   bottom: 0px;
+    left: 30px;
+    margin-bottom: 40px;
+}
+.boxes__3{
+display: flex;
+align-items: center;
+justify-content: center;
+gap:8px;
+margin-bottom: 8px;
+width: 100%;
+}
+.boxesss{
+    margin-top: 400px;
+    margin-bottom: 400px;
+}

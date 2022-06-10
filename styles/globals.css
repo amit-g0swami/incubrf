@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+@font-face {
+  font-family: TitleFont;
+  src: url("../assets/Steinerlight.ttf");
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#mainBlock {
+  background-image: linear-gradient(#ffffff, #77777773);
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+/* html {
+	 cursor: none;
+} */
+ /* .cursor-none {
+	 cursor: none;
+}
+ .cursor-none * {
+	 cursor: none;
+} */
+ .initial-body {
+	 cursor: initial;
+}
+ .initial-body * {
+	 cursor: initial;
+}
+ .cursor-border {
+	 position: fixed;
+	 border-radius: 50%;
+	 pointer-events: none;
+	 border: 1px solid gray;
+	 transform: translate(-50%, -50%);
+	 z-index: 9999;
+	 width: 35px;
+	 height: 35px;
+	 transition: width 0.2s linear, height 0.2s linear;
+	 cursor: none;
+}
+ .cursor-dot {
+	 z-index: 9999;
+	 border-radius: 50%;
+	 position: fixed;
+	 transform: translate(-50%, -50%);
+	 background-color: gray;
+	 pointer-events: none;
+	 width: 5px;
+	 z-index: 1000;
+	 height: 5px;
+	 cursor: none;
+	 transition: width 0.2s linear, height 0.2s linear;
+}
+ .smaller-cursor-border {
+	 width: 25px;
+	 height: 25px;
+}
+ .transition-none {
+	 transition: none;
+}
+ 
+.head-hover .cursor-border {
+  border: 2px dotted black;
+}
+
+.head-hover .cursor-dot {
+  background-color: black;
+}
+
+.middle-hover .cursor-border {
+  border: 2px dotted white;
+}
+
+.middle-hover .cursor-dot {
+  background-color: white;
+}
+
+.btn-incuber .cursor-border {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: invert(100%);
+  border: none;
+  width: 100px;
+  height: 100px;
+}
+
+.btn-incubr .cursor-border {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: invert(100%);
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+
+.children-hover .cursor-dot {
+  width: 600px;
+  background-color: white;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.children-hover .cursor-border {
+  z-index: -1;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background: transparent;
+}
+
+/* .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff; */
+
+  /* Center slide text vertically */
+  /* display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+} */
+
+#root {
+  background: lightblue;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  cursor: url('https://uploads.codesandbox.io/uploads/user/b3e56831-8b98-4fee-b941-0e27f39883ab/Ad1_-cursor.png') 39 39, auto;
+}
+
